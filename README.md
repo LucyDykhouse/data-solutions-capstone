@@ -1,22 +1,66 @@
-# data-solutions-capstone
-Assessing the factors that affect water quality
+<h1 align="center">Welcome to data-solutions-capstone - Water Potability Analysis 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/python-%3E%3D3.9.0-blue" />
+</p>
 
-### Challenge:
-What properties are most important to consider when determining water quality? Are there threshold property values above which water is not considered potable?
+> Assessing the effects that twenty different biological and chemical characteristics of water have on water potability.
 
-### Purpose:
-Access to potable water is both a necessity for life and a basic human right; however, the vast majority of new and existing water sources are unfit for consumption. Determining which factors have the greatest effect on a water source's potability will provide people with concrete measures of the quality of their water. Additionally, understanding the importance of water properties as they relate to water quality will allow for a better understanding of how the water quality can be improved, which has significant health and development implications.
+### 🏠 [Homepage](https://github.com/LucyDykhouse/data-solutions-capstone)  
 
-### Tech Stack:
-For cleaning, wrangling, and interacting with data: Numpy, Pandas  
-For visualization: Matplotlib/Seaborn (basic histograms), Plotly (interactive scatterplots)  
-For statistical analyses: Sklearn
+### ✨ [Demo](Link here)
 
-### Data Sources
-Kaggle water quality dataset  
-Data World water quality csv
+### Hosted Jupyter Notebooks
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LucyDykhouse/data-solutions-capstone/main)
 
-### Acceptance Criteria
+## Prerequisites
+
+- python >= 3.9.0
+
+## Install
+
+```sh
+pip install -r requirements.txt
+```
+
+## Notebook Usage
+```sh
+jupyter notebook
+```
+Or consult hosted notebooks here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LucyDykhouse/data-solutions-capstone/main)
+
+## Dashboard Usage
+```sh
+python3 hypothesis_dashboard.py
+```
+
+## File Structure
+**data/** : contains initial dataset along with clean dataset and engineered dataset ready for analysis  
+**models/** : contains exported logistic regression models (one with all features, one with relevant features)  
+
+**Project Overview.pdf** : lists background information, project motivation, and hypothesis  
+**Dataset Description.pdf** : includes data sources and data dictionary  
+
+**Data Exploration.ipynb** : displays summary statistics, basic visualizations, and correlations  
+**Data Wrangling.ipynb** : prepares data for statistical analysis through cleansing and feature engineering  
+**Statistical Analysis and Hypothesis Testing.ipynb** : Implements logistic regression and analyzes outputs  
+
+**hypothesis_dashboard.py** : generates interactive dashboard to display hypothesis testing results  
+**requirements.txt** : lists packages and versions installed  
+
+## Acceptance Criteria
 As a user, I should be able to infer which factors most affect water quality using data visualizations.  
 As a user, I should be able to see various property values that act as thresholds for whether water is potable using data visualizations.  
 As a user, I should be able to tell which factors most affect water quality using quantitative values from univariate/multivariate regressions.  
+
+## Author
+
+👤 **Lucy Dykhouse**
+
+* GitHub: [@LucyDykhouse](https://github.com/LucyDykhouse)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
