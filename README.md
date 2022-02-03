@@ -7,7 +7,7 @@
 
 ### 🏠 [Homepage](https://github.com/LucyDykhouse/data-solutions-capstone)  
 
-### ✨ [Demo](Link here)
+### ✨ [Demo](https://youtu.be/0J1T3294BKc)
 
 ### Hosted Jupyter Notebooks
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LucyDykhouse/data-solutions-capstone/main)
@@ -50,7 +50,7 @@ python3 hypothesis_dashboard.py
 ## Acceptance Criteria
 As a user, I should be able to infer which factors most affect water quality using data visualizations.  
 As a user, I should be able to see various property values that act as thresholds for whether water is potable using data visualizations.  
-As a user, I should be able to tell which factors most affect water quality using quantitative values from univariate/multivariate regressions.  
+As a user, I should be able to tell which factors most affect water quality using quantitative values from a logistic regression.  
 
 ## Author
 
